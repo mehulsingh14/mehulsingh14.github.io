@@ -3,7 +3,7 @@ html{scroll-behavior: smooth;}
 .light-bg{background-color: #ececec;}
 .text-shadow{text-shadow: rgb(0, 0, 0) 1px 0px 1px !important;}
 .banner{
-	background: url(images/banner.jpg) center no-repeat;
+	background: url(banner.jpg) center no-repeat;
 	background-size: cover;
 	background-blend-mode: overlay;
 	background-color: rgba(0, 0, 0, .70);
@@ -54,12 +54,12 @@ html{scroll-behavior: smooth;}
     width: 100%;
 }
 .bg-image{
-    background: url(images/banner1.jpg) center no-repeat;
+    background: url(banner1.jpg) center no-repeat;
     background-attachment: fixed;
     background-color: rgba(0, 0, 0, .75);
     background-size: cover;
 }
 .bg-contact{
-    background: url(images/contact.jpg) center no-repeat;
+    background: url(contact.jpg) center no-repeat;
     background-color: rgba(225, 225, 225, .8);
 }

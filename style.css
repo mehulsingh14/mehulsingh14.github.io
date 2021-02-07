@@ -1,0 +1,65 @@
+html{scroll-behavior: smooth;}
+.header-logo { max-height: 100px; }
+.light-bg{background-color: #ececec;}
+.text-shadow{text-shadow: rgb(0, 0, 0) 1px 0px 1px !important;}
+.banner{
+	background: url(images/banner.jpg) center no-repeat;
+	background-size: cover;
+	background-blend-mode: overlay;
+	background-color: rgba(0, 0, 0, .70);
+	height: 100vh;
+	width: 100%;
+}
+.max-content{
+    width: fit-content;
+    width: max-content;
+}
+.banner-caption{
+    font-size: 120px;
+}
+.section-title{
+    font-size: 70px;
+    font-weight: 1000;
+}
+.nav-active li a:hover{
+    color: #007bff;
+    border-bottom: solid 1.5px;
+}
+.social-link li a{
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .letter-space{letter-spacing: 3.5px;}
+ .translate-50{
+     position: relative; 
+     transform: translateY(-20%); 
+     top: 50%;
+     left: 0;
+     right: 0;
+    }
+ .fa-lg{font-size: 90px; font-weight: 300;}   
+ .bg-black{background-color: #1b1d1f;}
+ .h-50vh{height: 50vh;}
+ .bg-image,
+ .bg-contact{
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+    width: 100%;
+}
+.bg-image{
+    background: url(images/banner1.jpg) center no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, .75);
+    background-size: cover;
+}
+.bg-contact{
+    background: url(images/contact.jpg) center no-repeat;
+    background-color: rgba(225, 225, 225, .8);
+}
